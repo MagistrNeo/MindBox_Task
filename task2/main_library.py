@@ -103,4 +103,5 @@ def is_right_angled_triangle(a: float, b: float, c: float, tolerance: float = 1e
         bool: True если треугольник прямоугольный
     """
     sides = sorted([a, b, c])
+
     return abs(sides[0]**2 + sides[1]**2 - sides[2]**2) < tolerance
