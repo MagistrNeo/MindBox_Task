@@ -36,4 +36,5 @@ def main():
         print(f"  Треугольник {sides}: прямоугольный = {is_right}")
 
 if __name__ == "__main__":
+
     main()
